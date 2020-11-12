@@ -19,5 +19,5 @@ from django.urls import path
 from train.views import TrainView
 
 urlpatterns = [
-    path('', TrainView.as_view())
+    path('', TrainView.as_view(), name='train')
 ]
